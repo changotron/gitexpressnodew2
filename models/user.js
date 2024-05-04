@@ -11,6 +11,7 @@ const userSchema = new Schema({
         type: String,
         default: ''
     },
+    faceookId: String,
     admin: {
         type: Boolean,
         default: false
